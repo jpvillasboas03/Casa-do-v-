@@ -1,0 +1,210 @@
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.logop{
+    width: 45px;
+    height: 50px;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    background: #4b2e20;
+    padding: 12px 20px;
+    max-width: 2000px;
+    max-height: 40px;
+    border-radius: 20px;
+}
+
+.titulo1{
+    color: white;
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+.botoescab{
+    display: flex;
+    gap: 20px;           /*Criou o espaçamento entre lins do cabeçalho*/
+    margin-left: auto;   /*Mandou os links para direita*/
+    font-size: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;  /*Tirou o sublinhado do texto*/
+}
+
+.contato{
+    background: #8c6a2f;  /*contorno de contato em marrom*/
+    color: black;         /*a escrita contato em preto*/
+    padding: 8px 14px;      /*Cresceu a área do contorno do link contato*/
+    border-radius: 8px;     /*Arredondou a caixa do link contato*/
+}
+
+
+
+.titulo2{
+    font-size: 100px;
+    margin-left: 50px;
+}
+
+.box h2{
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.box button{
+    margin-left: 50px;
+}
+
+.oferendas{
+    background-image: url("oferendas.png");
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 100px;
+    border-radius: 5px;
+    border: 3px solid rgb(239, 234, 161);
+}
+.trabalhos{
+    background-image: url("trabalhos.png");
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 100px;
+    border-radius: 5px;
+    border: 3px solid rgb(239, 234, 161);
+}
+.cruzamentos{
+    background-image: url("cruzamentos.png");
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 100px;
+    border-radius: 5px;
+    border: 3px solid rgb(239, 234, 161);
+}
+.pontos{
+    background-image: url("pontos.png");
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 100px;
+    border-radius: 5px;
+    border: 3px solid rgb(239, 234, 161);
+}
+
+.endereco{
+    display: flex;              /* Coloca tudo lado a lado*/
+    align-items: center;        /* Alinha itens ao centro*/
+    gap: 15px;                  /* Cria espaçamento entre elementos*/
+    width: 90%;                 /* Determina o quanto na largura vai ocupar*/
+    background: #efe9e1;
+    border-radius: 10px;
+    margin: 30px;
+    max-width: 1600px;
+    max-height: 300px;
+}
+
+.endereco h2{
+    flex: 1; 
+    text-align: left;
+    font-size: 30px;
+}
+.endereco p{
+    flex: 1;
+    text-align: center;
+    margin-right: 600px;
+    font-size: 20px;
+}
+.endereco button{
+    margin-left: auto;
+    background: #c0392b;
+    height: 35px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 25px;
+    margin: 20px;
+}
+
+table{
+    margin: 30px auto;
+    font-size: 20px;
+    border-collapse: collapse;
+    width: 80%;
+    height: 70px;
+    border-radius: 100px;
+}
+
+th, td{
+    border: 1px solid #8c6a2f;
+    padding: 10px;
+    text-align: center;
+    color: #8c6a2f;
+    font-size: 30px;
+    
+}
+
+.caixa-texto{
+    resize: none;                 /*Resize (redimensionar)*/
+    width: 100%;                  /*width ( largura)*/
+    max-width: 640px;
+    padding: 16px;                /*padding (Espassamento na parte de dentro)*/
+    border: 3px solid #513f21;  /*Trocar cor da borda*/
+    border-radius: 15px;          /*Arredonda borda*/
+    background: white;
+    outline: none;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.caixa-texto::placeholder{         /*mudando a cor do texto dentro da caixa*/
+    color: black;
+    font-size: 15px;
+}
+
+.enviar-erva{
+    width: 15%;
+    max-width: 640px;
+    background: #8c6a2f;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;               /*none (sem borda)*/
+    padding: 14px;
+    cursor: pointer;            /*Quando passar mouse vira mãozinha*/
+    margin: 10px;
+}
+.escaqui{
+    font-size: 20px;
+}
+
+.resp{
+    font-size: 30px;
+    color: #8c6a2f;
+}
+.resposta-ia{
+    width: 60%;
+    font-size: 25px;
+    white-space: pre-line;
+}
+
+.pergunta{
+    color: #8c6a2f;
+}
+
+.voia{
+    display: flex;
+    align-items: center;
+    background-color: #efe9e1;
+}
+
+.imgvoia{
+    margin-left: 500px;
+    border-radius: 80px;
+}
