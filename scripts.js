@@ -16,6 +16,7 @@ async function perguntarErva() {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
+                "Authorization": `Bearer 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`
             },
             body: JSON.stringify({
                 mensagem: textoUsuario
