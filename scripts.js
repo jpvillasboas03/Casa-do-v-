@@ -12,7 +12,7 @@ async function perguntarErva() {
     respostaIA.innerText = "Buscando informação em Aruanda...";
 
     try {
-        let resposta = await fetch("/api/chat", {
+        let resposta = await fetch("https://api.groq.com/openai/v1/chat/completions", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
